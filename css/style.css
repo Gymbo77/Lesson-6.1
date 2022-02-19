@@ -1,0 +1,136 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pattaya&display=swap");
+
+@font-face {
+	font-family: "FFGoodPro";
+	src: url("../fonts/FFGoodPro-Medium.woff2") format("woff2"), url("../fonts/FFGoodPro.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "FactorAMedium";
+	src: url("../fonts/FactorAMedium-Regular.woff2") format("woff2"), url("../fonts/FactorAMedium.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+body {
+	font-family: "FFGoodPro";
+	font-weight: 400;
+	font-size: 30px;
+}
+
+h1 {
+	font-size: 50px;
+	color: rgba(23, 35, 197, 0.808);
+	text-align: left;
+	border-bottom: 10px double rgba(35, 16, 207, 0.918);
+	border-top: 10px double rgba(35, 16, 207, 0.918);
+}
+
+header {
+	margin: 10px 10px 30px 0px;
+}
+header p {
+	outline: 10px dotted rgba(10, 8, 146, 0.767);
+	margin-bottom: 20px;
+}
+
+.logo {
+	border-radius: 100px;
+	margin: 0 20px 10px 25px;
+}
+
+.one {
+	font-family: "FactorAMedium";
+	border: 22px dashed rgb(13, 228, 85);
+	box-shadow: 10px 10px 10px 10px rgb(191, 0, 230);
+	margin: 0 50px 100px 0;
+	padding: 15px;
+}
+
+.spisok {
+	font-family: "Pattaya";
+	font-size: 40px;
+	color: rgb(245, 11, 186);
+	text-decoration: overline;
+}
+
+.two {
+	margin: 0 15px 15px 15px;
+	border-right: 10px double rgb(0, 0, 0);
+	border-left: 10px double rgb(21, 0, 95);
+	padding: 100px;
+}
+
+.three {
+	margin-bottom: 20px;
+}
+
+.photo1 {
+	border: 15px double rgba(191, 231, 11, 0.233);
+	height: 700px;
+	width: 700px;
+	border-radius: 50%;
+	margin-left: 30px;
+	margin-bottom: 35px;
+}
+
+.p2-1 {
+	box-shadow: inset 5px 5px 10px 3px rgb(25, 186, 197);
+	margin-bottom: 20px;
+}
+
+.p3-1 {
+	box-shadow: 5px 5px 15px 10px rgb(240, 13, 13);
+	margin-bottom: 30px;
+}
+
+.p4-2 {
+	border: 10px dotted red;
+}
+
+.photo2 {
+	border: 20px double rgba(7, 226, 106, 0.493);
+}
+
+.p5-1,
+.p5-2,
+.p5-3,
+.p5-4,
+.p5-5,
+.p5-6 {
+	margin-bottom: 20px;
+	line-height: 1.5;
+}
+
+.photo3 {
+	height: 600px;
+	width: 600px;
+	border-radius: 20%;
+	margin-left: 60px;
+	margin-bottom: 30px;
+	border: 20px dotted hotpink;
+}
+
+.hyperlink {
+	display: inline-block;
+	background-color: rgb(187, 9, 178);
+	padding: 80px;
+	border-radius: 20% 20% 20% 20%/ 30% 30% 30% 30%;
+	color: rgb(0, 0, 0);
+	width: 800px;
+	margin: 0 auto;
+}
